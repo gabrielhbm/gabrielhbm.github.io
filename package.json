@@ -2,7 +2,7 @@
   "name": "website-ghb",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://gabrielhbm.github.io/gabrielhbm.github.io",
+  "homepage": "https://gabrielhbm.github.io",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
