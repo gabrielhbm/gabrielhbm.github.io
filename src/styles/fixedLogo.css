@@ -1,0 +1,17 @@
+.fixed-logo {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1000;
+  }
+  
+  .fixed-logo img {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    .fixed-logo {
+      display: none;
+    }
+  }

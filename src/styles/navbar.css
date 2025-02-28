@@ -1,0 +1,107 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Évite le débordement */
+  max-width: 100%;
+  height: 75px;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 0 20px;
+  z-index: 1000;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  align-items: center; /* Ensure items are centered vertically */
+  border-bottom: 1px solid #000;
+}
+
+.logo-text {
+  font-family: Protest;
+  font-size: larger;
+}
+
+.logo-container {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center; /* Center the logo vertically */
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 5px;
+  border: 1px solid transparent; /* Add transparent border initially */
+  box-sizing: border-box; /* Include border in element's dimensions */
+}
+
+.nav-links a:hover {
+  border-color: #333; /* Change border color on hover */
+  border-radius: 5px;
+}
+
+.language-switcher {
+  margin-left: 20px;
+}
+
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    position: fixed;
+    top: 75px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: calc(100vh - 75px);
+    background-color: rgba(255, 255, 255, 0.8);
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+  }
+
+  .nav-links.open {
+    display: flex;
+    margin: 0;
+    padding: 0 10px 10px 0px;
+  }
+
+  .nav-links a {
+    width: 80%;
+    text-align: center;
+  }
+
+  .nav-links a:hover {
+    border-color: #333;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
