@@ -1,7 +1,9 @@
 import { useTranslation } from 'react-i18next';
+import useDocumentTitle from '../hooks/useDocumentTitle';
 
 const Music = () => {
   const { t } = useTranslation();
+  useDocumentTitle(t('music'));
 
   return (
     <div>
