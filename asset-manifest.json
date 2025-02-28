@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/gabrielhbm.github.io/static/css/main.1d21d0a9.css",
+    "main.js": "/gabrielhbm.github.io/static/js/main.2493e46f.js",
+    "static/media/Protest Demo.ttf": "/gabrielhbm.github.io/static/media/Protest Demo.559086c3d4143b04d6a4.ttf",
+    "index.html": "/gabrielhbm.github.io/index.html",
+    "main.1d21d0a9.css.map": "/gabrielhbm.github.io/static/css/main.1d21d0a9.css.map",
+    "main.2493e46f.js.map": "/gabrielhbm.github.io/static/js/main.2493e46f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d21d0a9.css",
+    "static/js/main.2493e46f.js"
+  ]
+}
