@@ -5,7 +5,6 @@
     src: url('Protest\ Demo.ttf');
 }
 body {
-    margin: 0;
     margin-top: 60px;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -26,14 +25,15 @@ body {
   }
   
   h1 {
-    font-size: 36px;
+    font-size: 84px;
     color: #000000;
     font-family: Protest;
     text-align: center;
   }
   
-  div {
+div {
     padding: 16px;
   }
+  
   
   

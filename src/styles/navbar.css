@@ -14,7 +14,9 @@
   align-items: center; /* Ensure items are centered vertically */
   border-bottom: 1px solid #000;
 }
-
+.navbar div {
+  padding: 16px;
+}
 .logo-text {
   font-family: Protest;
   font-size: larger;
@@ -88,7 +90,6 @@
 
   .nav-links.open {
     display: flex;
-    margin: 0;
     padding: 0 10px 10px 0px;
   }
 

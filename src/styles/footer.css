@@ -62,3 +62,7 @@ a {
 .icon {
     width: 150px;
 }
+
+.footer div {
+    padding: 16px;
+}
