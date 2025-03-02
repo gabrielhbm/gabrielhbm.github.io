@@ -35,5 +35,9 @@ div {
     padding: 16px;
   }
   
-  
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 10vw;
+  }
+}
   

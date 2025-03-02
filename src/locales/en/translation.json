@@ -5,7 +5,19 @@
     "travels": "Travels",
     "contact": "Contact",
     "rights": "Gabriel Houdry--Boheme, All rights reserved.",
-    "description": "Home page of the website.",
-    "links": "Links"
+    "welcome": "Welcome",
+    "links": "Links",
+    "aboutMe": "About me",
+    "dim-uqac": "Computer science department - UQAC",
+    "saguenay": "Saguenay, Québec, Canada",
+    "uqacInternshipDesc": "3 month internship at the computer science department of UQAC. Worked on researching ways to reduce cybersickness in virtual reality.",
+    "uqac": "UQAC - Université du Québec à Chicoutimi",
+    "uqacDegree": "BSc. in computer science",
+    "crestic": "CRESTIC - URCA",
+    "cresticDesc": "3 month internship at the CReSTIC lab. Worked on a project to develop an AR/VR web app using THREE.js and A-Frame.",
+    "urca": "URCA - Université de Reims Champagne-Ardenne",
+    "reims": "Reims, Grand Est, France",
+    "butinfo": "Bachelor's Degree in computer science and information technology",
+    "butSpe": "Specialization in web development."
   }
   

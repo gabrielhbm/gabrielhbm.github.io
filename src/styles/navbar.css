@@ -90,7 +90,7 @@
 
   .nav-links.open {
     display: flex;
-    padding: 0 10px 10px 0px;
+    padding: 30px 0 10px 0px;
   }
 
   .nav-links a {
