@@ -15,6 +15,7 @@ const LanguageSwitcher = () => {
     <div className="flex gap-2">
       <button onClick={() => changeLanguage('en')}>🇬🇧 English</button>
       <button onClick={() => changeLanguage('jp')}>🇯🇵 日本語</button>
+      <button onClick={() => changeLanguage('fr')}>🇫🇷 Français</button>
     </div>
   );
 };

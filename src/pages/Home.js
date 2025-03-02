@@ -12,8 +12,11 @@ const Home = () => {
       <div className="intro-container">
         <div className="intro-left">
           <p className="section-title">{t('welcome').toLocaleUpperCase()}</p>
-          <p className="section-txt">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel arcu ultrices, sagittis tortor a, ornare risus. Mauris sit amet lacinia augue, vitae molestie augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam in nunc ut diam lacinia eleifend.
+          <p className="section-txt cool-text">
+            <p>{t('welcomeTextOne')}</p>
+            <p>{t('welcomeTextTwo')}</p>
+            <p>{t('welcomeTextThree')}</p>
+            <p>{t('welcomeTextFour')}</p>
           </p>
         </div>
         <div className="intro-right">
@@ -26,8 +29,9 @@ const Home = () => {
       <div className="about-container">
         <div className="about-left">
           <p className="section-title">{t('aboutMe').toLocaleUpperCase()}</p>
-          <p className="section-txt">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel arcu ultrices, sagittis tortor a, ornare risus. Mauris sit amet lacinia augue, vitae molestie augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam in nunc ut diam lacinia eleifend.
+          <p className="section-txt cool-text">
+            {t('aboutMeOne')}
+            {t('aboutMeTwo')}
           </p>
         </div>
           <div className='history'>
@@ -52,7 +56,7 @@ const Home = () => {
             <div className='history-list'>
               <div className='history-item'>
                 <p className='year'>2024</p>
-                <div className='history-txt'>
+                <div className='history-txt cool-text'>
                   <p className='position'>{t('dim-uqac')}</p>
                   <p className='location'>{t('saguenay')}</p>
                   <p className='description'>{t('uqacInternshipDesc')}</p>
@@ -60,7 +64,7 @@ const Home = () => {
               </div>
               <div className='history-item'>
                 <p className='year'>2023-2024</p>
-                <div className='history-txt'>
+                <div className='history-txt cool-text'>
                   <p className='position'>{t('uqac')}</p>
                   <p className='location'>{t('saguenay')}</p>
                   <p className='description degree'>{t('uqacDegree')}</p>
@@ -68,7 +72,7 @@ const Home = () => {
               </div>
               <div className='history-item'>
                 <p className='year'>2023</p>
-                <div className='history-txt'>
+                <div className='history-txt cool-text'>
                   <p className='position'>{t('crestic')}</p>
                   <p className='location'>{t('reims')}</p>
                   <p className='description'>{t('cresticDesc')}</p>
@@ -76,7 +80,7 @@ const Home = () => {
               </div>
               <div className='history-item'>
                 <p className='year'>2021-2024</p>
-                <div className='history-txt'>
+                <div className='history-txt cool-text'>
                   <p className='position'>{t('urca')}</p>
                   <p className='location'>{t('reims')}</p>
                   <p className='description degree'>{t('butinfo')}</p>

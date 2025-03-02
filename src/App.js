@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
     const browserLang = i18n.language || 'en';
-    if (!['en', 'jp'].includes(browserLang)) {
+    if (!['en', 'jp', 'fr'].includes(browserLang)) {
       i18n.changeLanguage('en');
     }
   }, [i18n]);

@@ -52,6 +52,7 @@ const Navbar = () => {
             <select value={lang} onChange={handleLanguageChange}>
               <option value="en">EN</option>
               <option value="jp">JP</option>
+              <option value="fr">FR</option>
             </select>
           </div>
           <button className="hamburger" onClick={toggleNavbar}>

@@ -4,6 +4,10 @@
     font-family: Protest;
     src: url('Protest\ Demo.ttf');
 }
+@font-face {
+  font-family: Eitai;
+  src: url('Eitai.ttf');
+}
 body {
     margin-top: 60px;
     padding: 0;
@@ -29,12 +33,12 @@ body {
     color: #000000;
     font-family: Protest;
     text-align: center;
+    padding-top: 25px;
   }
-  
-div {
-    padding: 16px;
+  .cool-text {
+    text-transform: uppercase;
+    font-size: 14px;
   }
-  
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 10vw;
