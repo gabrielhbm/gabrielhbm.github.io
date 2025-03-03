@@ -74,6 +74,7 @@ h1 {
   font-size: 16px;
   text-transform: uppercase;
   text-align: justify;
+  color: #212121;
 }
 
 /* Container for the about section */
@@ -86,16 +87,36 @@ h1 {
 
   box-sizing: border-box;
   border-top: 1px solid #000;
-  gap: 60px;
+  gap: 40px;
 }
 
 .about-left {
-  width: 100%;
+  width: 60%;
   padding: 0;
 }
 
+.contactButton {
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: fit-content;
+  text-transform: uppercase;
+  margin-top: 25px;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  gap: 10px;
+}
+
+.contactButton:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
 .history {
-  flex: 0 0 30%;
+  flex: 0 0 35%;
   display: flex;
   align-items: flex-start;
   gap: 20px;
@@ -137,7 +158,6 @@ h1 {
 
 .history-item p {
   margin-top: 0;
-  text-align: justify;
 }
 
 .history-item .description {
@@ -196,7 +216,14 @@ h1 {
   .about-container {
     flex-direction: column;
   }
-
+  .contactButton {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  .about-left {
+    width: 100%;
+  }
   .line {
     height: 200px;
   }

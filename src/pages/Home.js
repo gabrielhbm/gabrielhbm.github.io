@@ -1,9 +1,14 @@
 import { useTranslation } from 'react-i18next';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 import '../styles/home.css';
+import { FaEnvelope } from 'react-icons/fa';
+import { NavLink, useParams } from 'react-router-dom';
+
+
 
 const Home = () => {
   const { t } = useTranslation();
+  const { lang } = useParams();
   useDocumentTitle(t('home'));
 
   return (
@@ -30,9 +35,14 @@ const Home = () => {
         <div className="about-left">
           <p className="section-title">{t('aboutMe').toLocaleUpperCase()}</p>
           <p className="section-txt cool-text">
-            {t('aboutMeOne')}
-            {t('aboutMeTwo')}
+            <p>{t('aboutMeOne')}</p>
+            <p>{t('aboutMeTwo')}</p>
+            <p>{t('aboutMeThree')}</p>
           </p>
+          <NavLink to={`/${lang}/contact`} className='contactButton'>
+            <FaEnvelope className='contact-icon' />
+            <p className='contact-title'>{t('contactMe')}</p>
+          </NavLink>
         </div>
           <div className='history'>
             <div className='timeline'>
@@ -83,7 +93,7 @@ const Home = () => {
                 <div className='history-txt cool-text'>
                   <p className='position'>{t('urca')}</p>
                   <p className='location'>{t('reims')}</p>
-                  <p className='description degree'>{t('butinfo')}</p>
+                  <p className='degree'>{t('butinfo')}</p>
                   <p className='description'>{t('butSpe')}</p>
                   </div>
               </div>
