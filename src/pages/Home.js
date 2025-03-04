@@ -145,7 +145,7 @@ const Home = () => {
         </div>
       </div>
       <div className="skills-container">
-        <p className="section-title">{t('skills').toLocaleUpperCase()}</p>
+        <p className={`section-title ${lang === 'fr' ? 'welcomeTwo' : ''}`}>{t('skills').toLocaleUpperCase()}</p>
         <p className="section-txt cool-text">{t('skillsDesc')}</p>
         <div className="skills-section">
           <p className="skills-title">{t('languages').toLocaleUpperCase()}</p>
