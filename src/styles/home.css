@@ -7,7 +7,6 @@
   padding: 20px 50px 50px;
   box-sizing: border-box;
 }
-
 .intro-container div {
   padding-left: 0;
   padding: 0;
@@ -193,6 +192,69 @@ h1 {
   margin-bottom: 10px;
 }
 
+/* Container for the skills section */
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center everything in the skills container */
+  justify-content: center;
+  width: 100%;
+  padding: 50px 50px 50px;
+  border-top: 1px solid #000;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.skills-title {
+  font-size: 25px;
+  font-weight: 600;
+  color: #454545;
+}
+.skills-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-section-list {
+  display: flex;
+  flex-wrap: wrap; /* Make each skills-section-list a row that wraps */
+  justify-content: center;
+  width: 70%; /* Take 70% of the container's width */
+  gap: 20px;
+}
+
+.skill {
+  width: 100px; /* Set a fixed width for the skill elements */
+  height: 100px; /* Set a fixed height for the skill elements */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.skill:hover {
+  background-color: #000000;
+  color: #fff;
+}
+.skill i {
+  font-size: 40px;
+  transition: color 0.3s ease;
+}
+.skill p {
+  transition: color 0.3s ease;
+}
+.skill:hover i {
+  color: #fff;
+}
+.skill:hover p {
+  color: #fff;
+}
 /* Media query for mobile devices */
 @media (max-width: 768px) {
   .intro-container {
@@ -201,6 +263,10 @@ h1 {
   }
   .section-title {
     text-align: center;
+  }
+  
+  .welcome {
+    font-size: 2.8em;
   }
   .intro-left,
   .intro-right {
@@ -230,5 +296,13 @@ h1 {
 
   .history-item {
     height: 170px;
+  }
+  .skills-section-list {
+    width: 100%; /* Make the skills-section-list take full width on mobile */
+  }
+
+  .skill {
+    width: 80px; /* Adjust the size of the skill elements on mobile */
+    height: 80px;
   }
 }

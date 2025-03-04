@@ -26,6 +26,12 @@
     "urca": "URCA - Université de Reims Champagne-Ardenne",
     "reims": "Reims, Grand Est, France",
     "butinfo": "Bachelor's Degree in computer science and information technology",
-    "butSpe": "Specialization in web development."
+    "butSpe": "Specialization in web development.",
+    "skills": "Skills", 
+    "skillsDesc": "Here are the different languages and tools I've used in my projects.",
+    "languages": "Languages",
+    "databases": "Databases",
+    "frameworks": "Frameworks",
+    "tools": "Tools"
   }
   
