@@ -5,6 +5,7 @@
     "travels": "Travels",
     "contact": "Contact",
     "rights": "Gabriel Houdry--Boheme, All rights reserved.",
+
     "welcome": "Welcome",
     "welcomeTextOne": "Hi, my name is Gabriel Houdry--Boheme. I am a developer passionate about new technologies, art, and everything in between.",
     "welcomeTextTwo": "I graduated with a B. Sc in computer science from the University of Reims, in France, and another one from the UQAC in Canada. I have gained solid experience through my internships and university and personal projects.",
@@ -27,11 +28,22 @@
     "reims": "Reims, Grand Est, France",
     "butinfo": "Bachelor's Degree in computer science and information technology",
     "butSpe": "Specialization in web development.",
+
     "skills": "Skills", 
     "skillsDesc": "Here are the different languages and tools I've used in my projects.",
     "languages": "Languages",
     "databases": "Databases",
     "frameworks": "Frameworks",
-    "tools": "Tools"
+    "tools": "Tools",
+
+    "projectsDesc": "Here are some of the projects I've worked on.",
+    "projectsDescTwo": "Some of these projects were done during my studies, others during my internships, and some are personal projects.",
+    "involvedSkills": "Involved skills :",
+    "thisWebsite": "This website",
+    "projectWebsiteDescOne": "I wanted to create a portfolio website to show more than just my resume. I made it multilingual based on the languages I speak using i18n.js.",
+    "projectWebsiteDescTwo": " I also based the design on websites such as Balenciaga Celine or Henri Alexander Levy's that I like for their boldness and simplicity. Initial sketch made on figma.",
+    "cybersicknessResearch": "Cybersickness research",
+    "cybersicknessResearchDescOne": "During my internship at the UQAC, I worked on a research project to reduce cybersickness in virtual reality using vibrations from a mobile phone.",
+    "cybersicknessResearchDescTwo": "The experiment involved walking through a maze in VR while receiving different types of vibrations: constant, random, vibration based on speed and no vibration."
   }
   

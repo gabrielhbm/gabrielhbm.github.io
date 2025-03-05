@@ -1,0 +1,105 @@
+/* Container for the projects section */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two projects per row */
+  gap: 20px; /* Space between projects */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Individual project styling */
+.project-container {
+  border: 1px solid black; /* Black 1px border */
+  width: 100%; /* Full width of the grid column */
+  height: 600px; /* Definite height */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.project-container:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.project-img {
+  width: calc(100%+20px); /* Full width of the container */
+  align-items: center;
+  height: 250px; /* Set a fixed height for the image container */
+  overflow: hidden; /* Hide any overflow */
+  margin: -10px -10px 0 -10px; /* Remove distance from the border */
+}
+
+.project-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the entire container */
+}
+
+.project-head {
+  text-align: left; /* Align text to the left */
+  margin-top: 10px;
+  width: 100%; /* Ensure the text takes full width */
+}
+
+.projectName {
+    text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.projectDate {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.projectSkills {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.project-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align skills to the start (left) */
+  gap: 5px;
+  width: 100%; /* Ensure the skills take full width */
+  font-size: 25px;
+}
+
+.project-description {
+  font-size: 14px;
+  text-align: left; /* Align text to the left */
+  margin-top: 10px;
+  width: 100%; /* Ensure the description takes full width */
+  text-transform: uppercase;
+}
+
+.project-description-p {
+  margin-top: 5px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .projects {
+    display: flex;
+    flex-direction: column; /* Stack projects in a column */
+    gap: 20px;
+  }
+
+  .project-container {
+    width: 100%; /* Full width on mobile */
+    height: auto; /* Auto height on mobile */
+  }
+
+  .project-img {
+    height: auto; /* Auto height on mobile */
+    margin: 0; /* Reset margin on mobile */
+  }
+}

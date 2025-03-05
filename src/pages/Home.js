@@ -50,6 +50,7 @@ const Home = () => {
       { icon: 'androidstudio', name: 'Android Studio', link: 'https://developer.android.com/studio' },
       { icon: 'intellij', name: 'IntelliJ IDEA', link: 'https://www.jetbrains.com/idea/' },
       { icon: 'rstudio', name: 'RStudio', link: 'https://www.rstudio.com/' },
+      { icon: 'unity', name: 'Unity', link: 'https://unity.com/' },
       { icon: 'figma', name: 'Figma', link: 'https://www.figma.com/' },
       { icon: 'trello', name: 'Trello', link: 'https://trello.com/' },
       { icon: 'jira', name: 'Jira', link: 'https://www.atlassian.com/software/jira' }
@@ -178,6 +179,7 @@ const Home = () => {
             {skills.tools.map((tool, index) => (
               <Skill key={index} icon={tool.icon+"-plain"} name={tool.name.toLocaleUpperCase()} link={tool.link} />
             ))}
+            <Skill icon="blender-original" name="BLENDER" link="https://www.blender.org/" />
           </div>
         </div>
       </div>
