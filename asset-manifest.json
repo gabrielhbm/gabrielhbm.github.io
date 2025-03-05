@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.8d66d1a8.css",
-    "main.js": "/static/js/main.bfe9cb91.js",
+    "main.css": "/static/css/main.fa7219fe.css",
+    "main.js": "/static/js/main.f83bcd3c.js",
     "static/media/Eitai.ttf": "/static/media/Eitai.c8aa62056ec643c14bff.ttf",
     "static/media/Protest Demo.ttf": "/static/media/Protest Demo.559086c3d4143b04d6a4.ttf",
     "index.html": "/index.html",
-    "main.8d66d1a8.css.map": "/static/css/main.8d66d1a8.css.map",
-    "main.bfe9cb91.js.map": "/static/js/main.bfe9cb91.js.map"
+    "main.fa7219fe.css.map": "/static/css/main.fa7219fe.css.map",
+    "main.f83bcd3c.js.map": "/static/js/main.f83bcd3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d66d1a8.css",
-    "static/js/main.bfe9cb91.js"
+    "static/css/main.fa7219fe.css",
+    "static/js/main.f83bcd3c.js"
   ]
 }
