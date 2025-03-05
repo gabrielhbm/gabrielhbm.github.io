@@ -41,9 +41,12 @@
     "involvedSkills": "Involved skills :",
     "thisWebsite": "This website",
     "projectWebsiteDescOne": "I wanted to create a portfolio website to show more than just my resume. I made it multilingual based on the languages I speak using i18n.js.",
-    "projectWebsiteDescTwo": " I also based the design on websites such as Balenciaga Celine or Henri Alexander Levy's that I like for their boldness and simplicity. Initial sketch made on figma.",
+    "projectWebsiteDescTwo": "The design is inspired by fashion websites such as Balenciaga, Celine or Henri Alexander Levy's personal website that I like for their boldness and simplicity. Initial sketch made using figma.",
     "cybersicknessResearch": "Cybersickness research",
     "cybersicknessResearchDescOne": "During my internship at the UQAC, I worked on a research project to reduce cybersickness in virtual reality using vibrations from a mobile phone.",
-    "cybersicknessResearchDescTwo": "The experiment involved walking through a maze in VR while receiving different types of vibrations: constant, random, vibration based on speed and no vibration."
+    "cybersicknessResearchDescTwo": "The experiment involved walking through a maze made in Unity in VR while receiving different types of vibrations: constant, random, vibration based on speed and no vibration.",
+    "travelManagerProject": "Travel Manager App",
+    "travelManagerDescOne": "UQAC project for an Android development course. This app consists in a map that allows to create and manage trips.",
+    "travelManagerDescTwo": "The app uses OpenStreetMaps to display the map and find distances between two points. It also uses an SQLite database to store the trips."
   }
   

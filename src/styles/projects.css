@@ -2,8 +2,8 @@
 .projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two projects per row */
-  gap: 20px; /* Space between projects */
-  padding: 20px;
+  gap: 30px; /* Space between projects */
+  padding: 30px;
   box-sizing: border-box;
 }
 
@@ -11,7 +11,7 @@
 .project-container {
   border: 1px solid black; /* Black 1px border */
   width: 100%; /* Full width of the grid column */
-  height: 600px; /* Definite height */
+  height: 650px; /* Definite height */
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* Align items to the start (left) */
@@ -26,17 +26,17 @@
 }
 
 .project-img {
-  width: calc(100%+20px); /* Full width of the container */
+  width: calc(100% + 20px); /* Full width of the container */
   align-items: center;
-  height: 250px; /* Set a fixed height for the image container */
   overflow: hidden; /* Hide any overflow */
   margin: -10px -10px 0 -10px; /* Remove distance from the border */
+  padding-top: 0;
 }
 
 .project-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Cover the entire container */
+  object-fit: cover; /* Cover the image */
 }
 
 .project-head {
@@ -46,17 +46,18 @@
 }
 
 .projectName {
-    text-transform: uppercase;
+  text-transform: uppercase;
   font-size: 30px;
   font-weight: 800;
   margin-bottom: 0;
+  margin-top: auto;
 }
 
 .projectDate {
-    font-size: 20px;
-    font-weight: 800;
-    margin-bottom: 10px;
-    margin-top: 0;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  margin-top: 0;
 }
 
 .projectSkills {
@@ -100,6 +101,5 @@
 
   .project-img {
     height: auto; /* Auto height on mobile */
-    margin: 0; /* Reset margin on mobile */
   }
 }

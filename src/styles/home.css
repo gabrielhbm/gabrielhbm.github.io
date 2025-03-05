@@ -309,4 +309,8 @@ h1 {
     width: 80px; /* Adjust the size of the skill elements on mobile */
     height: 80px;
   }
+
+  .skill p {
+    margin: 0;
+  }
 }
