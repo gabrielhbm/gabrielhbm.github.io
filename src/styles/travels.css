@@ -1,0 +1,66 @@
+.travelsDesc {
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .travelsTitle {
+    padding-top: 0;
+  }
+  
+  .countries-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    gap: 20px; /* Space between country elements */
+    justify-content: center; /* Center the country elements */
+    padding: 20px;
+    max-width: 1400px; /* Reduce the width */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .country {
+    width: 200px; /* Fixed width */
+    height: 300px; /* Fixed height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .country:hover {
+    transform: scale(1.02);
+  }
+  
+  .country-name {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .country-flag {
+    width: 150px; /* Adjust the size as needed */
+    height: auto;
+  }
+  
+  .city-list {
+    text-transform: uppercase;
+    text-align: justify;
+    width: 100%; /* Take full width */
+    margin-top: 10px;
+    font-size: small;
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .country {
+      height: auto; /* Allow height to adjust based on content */
+    }
+  
+    .country-flag {
+      order: -1; /* Move the flag to the top */
+      margin-bottom: 10px; /* Add some space below the flag */
+    }
+  }

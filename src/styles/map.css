@@ -1,0 +1,25 @@
+.map-container {
+    width: 100%;
+    height: 600px; /* Default height */
+  
+    /* Media query for larger screens */
+    @media (min-width: 1024px) {
+      height: 500px; /* Increase height for larger screens */
+    }
+  }
+  
+  .custom-popup .leaflet-popup-content-wrapper {
+    border: 1px solid black; /* Black border */
+    border-radius: 0; /* Remove border radius */
+    font-family: Helvetica, Arial, sans-serif; /* Helvetica font */
+    text-transform: uppercase; /* Uppercase text */
+  }
+  
+  .custom-popup .leaflet-popup-content {
+    margin: 0;
+    padding: 8px;
+  }
+  
+  .custom-popup .leaflet-popup-tip-container {
+    display: none; /* Hide the default popup tip */
+  }

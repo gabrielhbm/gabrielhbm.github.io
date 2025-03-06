@@ -45,6 +45,9 @@ body {
     text-align: center;
     padding-top: 25px;
   }
+  .travel {
+    font-size: 25px;
+  }
   .cool-text {
     text-transform: uppercase;
     font-size: 14px;

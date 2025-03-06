@@ -60,6 +60,8 @@
     "cresticDescThree": "This app was made to help students of the university visualize the different machines from the University, as well as the virtual ones from Factory I/O (project made in collaboration with Real Games in Portugal).",
     "vignupProject": "Vign'Up",
     "vignupDescOne": "URCA group project made in collaboration with the Marne Chamber of Agriculture. The goal was to provide all the information regarding semi-large vines to the Marne winegrowers.",
-    "vignupDescTwo": "This web app was made using Symfony and PHP, based on the specifications given by the Chamber of Agriculture. Two members of my team were taken in internship by the Chamber of Agriculture to continue the project, which is now available at www.vignup.fr."
+    "vignupDescTwo": "This web app was made using Symfony and PHP, based on the specifications given by the Chamber of Agriculture. Two members of my team were taken in internship by the Chamber of Agriculture to continue the project, which is now available at www.vignup.fr.",
+  
+    "travelsDescription": "Here are some of the places I've been to."
   }
   
