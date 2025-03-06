@@ -58,5 +58,21 @@
     "cresticDescThree": "Cette application a été réalisée pour aider les étudiants de l'université à visualiser les différentes machines de l'université, ainsi que celles virtuelles de Factory I/O (projet réalisé en collaboration avec Real Games au Portugal).",
     "vignupProject": "Vign'Up",
     "vignupDescOne": "Projet de groupe de l'URCA réalisé en collaboration avec la Chambre d'Agriculture de la Marne. L'objectif était de fournir toutes les informations concernant les vignes semi-larges aux viticulteurs de la Marne.",
-    "vignupDescTwo": "Cette application web a été réalisée en utilisant Symfony et PHP, selon les spécifications données par la Chambre d'Agriculture. Deux membres de mon équipe ont été pris en stage par la Chambre d'Agriculture pour continuer le projet, qui est maintenant disponible sur www.vignup.fr."
+    "vignupDescTwo": "Cette application web a été réalisée en utilisant Symfony et PHP, selon les spécifications données par la Chambre d'Agriculture. Deux membres de mon équipe ont été pris en stage par la Chambre d'Agriculture pour continuer le projet, qui est maintenant disponible sur www.vignup.fr.",
+    
+    "travelsDescription": "Voici quelques-uns des endroits où je suis allé.",
+    "France": "France",
+    "Canada": "Canada",
+    "Germany": "Allemagne",
+    "Spain": "Espagne",
+    "Italy": "Italie",
+    "Vatican": "Vatican",
+    "Cyprus": "Chypre",
+    "USA": "États-Unis",
+    "United Kingdom": "Royaume-Uni",
+    "Czech Republic": "République tchèque",
+    "Croatia": "Croatie",
+    "Bosnia": "Bosnie",
+    "Switzerland": "Suisse",
+    "Belgium": "Belgique"
 }

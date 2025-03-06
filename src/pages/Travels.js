@@ -23,21 +23,30 @@ const Travels = () => {
       { name: 'Cyprus', link: 'https://en.wikipedia.org/wiki/Cyprus', cities: ['Nicosia', 'Limassol', 'Paphos'], flag: `${process.env.PUBLIC_URL}/flags/cy.svg` },
       { name: 'USA', link: 'https://en.wikipedia.org/wiki/United_States', cities: ['New York City', 'Albany'], flag: `${process.env.PUBLIC_URL}/flags/us.svg` },
       { name: 'United Kingdom', link: 'https://en.wikipedia.org/wiki/United_Kingdom', cities: ['Canterbury', 'Dover'], flag: `${process.env.PUBLIC_URL}/flags/gb.svg` },
-      { name: 'Czech Republic', link: 'https://en.wikipedia.org/wiki/Czech_Republic', cities: ['Praha', 'Brno'], flag: `${process.env.PUBLIC_URL}/flags/cz.svg` },
+      { name: 'Czech Republic', link: 'https://en.wikipedia.org/wiki/Czech_Republic', cities: ['Praha', 'Kutná Hora'], flag: `${process.env.PUBLIC_URL}/flags/cz.svg` },
       { name: 'Croatia', link: 'https://en.wikipedia.org/wiki/Croatia', cities: ['Split', 'Trogir'], flag: `${process.env.PUBLIC_URL}/flags/hr.svg` },
       { name: 'Bosnia', link: 'https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina', cities: ['Mostar'], flag: `${process.env.PUBLIC_URL}/flags/ba.svg` },
       { name: 'Switzerland', link: 'https://en.wikipedia.org/wiki/Switzerland', cities: ['Zurich', 'Geneva', 'Basel'], flag: `${process.env.PUBLIC_URL}/flags/ch.svg` },
       { name: 'Belgium', link: 'https://en.wikipedia.org/wiki/Belgium', cities: ['Antwerp', 'Bouillon'], flag: `${process.env.PUBLIC_URL}/flags/be.svg` }
     ];
 
-    setCountries(countryData);
-  }, []);
+    const translatedCountryData = countryData.map(country => ({
+      ...country,
+      name: t(country.name),
+      cities: country.cities.map(city => t(city))
+    }));
+
+    setCountries(translatedCountryData);
+  }, [t]);
 
   return (
     <div>
       <Map />
       <div className="travels-container">
         <h1 className='travelsTitle'>{t('travels')}</h1>
+        <div className="scroll-indicator">
+          <span>&#x25BC;</span> {/* Down arrow */}
+        </div>
         <p className="travelsDesc">{t('travelsDescription')}</p>
         <div className="countries-wrapper">
           {countries.map((country, index) => (

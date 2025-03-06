@@ -62,6 +62,20 @@
     "vignupDescOne": "URCA group project made in collaboration with the Marne Chamber of Agriculture. The goal was to provide all the information regarding semi-large vines to the Marne winegrowers.",
     "vignupDescTwo": "This web app was made using Symfony and PHP, based on the specifications given by the Chamber of Agriculture. Two members of my team were taken in internship by the Chamber of Agriculture to continue the project, which is now available at www.vignup.fr.",
   
-    "travelsDescription": "Here are some of the places I've been to."
+    "travelsDescription": "Here are some of the places I've been to.",
+    "France": "France",
+    "Canada": "Canada",
+    "Germany": "Germany",
+    "Spain": "Spain",
+    "Italy": "Italy",
+    "Vatican": "Vatican",
+    "Cyprus": "Cyprus",
+    "USA": "USA",
+    "United Kingdom": "United Kingdom",
+    "Czech Republic": "Czech Republic",
+    "Croatia": "Croatia",
+    "Bosnia": "Bosnia",
+    "Switzerland": "Switzerland",
+    "Belgium": "Belgium"
   }
   

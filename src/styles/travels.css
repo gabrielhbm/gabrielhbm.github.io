@@ -1,66 +1,104 @@
 .travelsDesc {
-    text-transform: uppercase;
-    text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.travelsTitle {
+  padding-top: 0;
+}
+
+.scroll-indicator {
+  text-align: center;
+  font-size: 24px;
+  margin-top: -20px; /* Adjust the position as needed */
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.travels-container {
+  border-top: 1px solid black;
+}
+
+.countries-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Use CSS Grid */
+  gap: 20px; /* Space between country elements */
+  justify-content: center; /* Center the country elements */
+  padding: 20px;
+  max-width: 1400px; /* Reduce the width */
+  margin: 0 auto; /* Center the container */
+}
+
+.country {
+  width: 200px; /* Fixed width */
+  height: 300px; /* Fixed height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.country:hover {
+  transform: scale(1.02);
+}
+
+.country-name {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.country-flag {
+  width: 150px; /* Adjust the size as needed */
+  height: auto;
+}
+
+.city-list {
+  text-transform: uppercase;
+  text-align: justify;
+  width: 90%; /* Take full width */
+  margin-top: 10px;
+  font-size: small;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .country {
+    height: auto; /* Allow height to adjust based on content */
   }
 
-  .travelsTitle {
-    padding-top: 0;
-  }
-  
   .countries-wrapper {
-    display: flex;
-    flex-wrap: wrap; /* Allow wrapping */
-    gap: 20px; /* Space between country elements */
-    justify-content: center; /* Center the country elements */
-    padding: 20px;
-    max-width: 1400px; /* Reduce the width */
-    margin: 0 auto; /* Center the container */
+    gap: 10px; /* Reduce the space between country elements */
   }
-  
-  .country {
-    width: 200px; /* Fixed width */
-    height: 300px; /* Fixed height */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    padding: 10px;
-    transition: transform 0.3s ease;
-  }
-  
-  .country:hover {
-    transform: scale(1.02);
-  }
-  
-  .country-name {
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 10px;
-  }
-  
+
   .country-flag {
-    width: 150px; /* Adjust the size as needed */
-    height: auto;
+    order: -1; /* Move the flag to the top */
+    margin-bottom: 10px; /* Add some space below the flag */
   }
-  
-  .city-list {
-    text-transform: uppercase;
-    text-align: justify;
-    width: 100%; /* Take full width */
-    margin-top: 10px;
-    font-size: small;
+  .travelsTitle {
+    padding-top: 10px;
   }
-  
-  /* Media query for mobile devices */
-  @media (max-width: 768px) {
-    .country {
-      height: auto; /* Allow height to adjust based on content */
-    }
-  
-    .country-flag {
-      order: -1; /* Move the flag to the top */
-      margin-bottom: 10px; /* Add some space below the flag */
-    }
+
+  .scroll-indicator {
+    display: none; /* Hide the scroll indicator on mobile devices */
   }
+
+  .countries-wrapper {
+    grid-template-columns: repeat(2, 1fr); /* Display countries in rows of 2 */
+  }
+}
