@@ -32,6 +32,32 @@
     "languages": "プログラミング言語",
     "databases": "データベース",
     "frameworks": "フレームワーク",
-    "tools": "ツール"
+    "tools": "ツール",
+
+    "projectsDesc": "これまでに取り組んだプロジェクトのいくつかを紹介します。",
+    "projectsDescTwo": "これらのプロジェクトの一部は学業中に、他はインターンシップ中に、そしていくつかは個人プロジェクトとして行われました。後で他のプロジェクトを追加するかもしれません。",
+    "involvedSkills": "関与したスキル：",
+    "thisWebsite": "このウェブサイト",
+    "projectWebsiteDescOne": "ポートフォリオサイトを作成して、履歴書以上のものを見せたかったのです。i18n.jsを使用して、話す言語に応じて多言語対応にしました。",
+    "projectWebsiteDescTwo": "デザインは、Balenciaga、Celine、Henri Alexander Levyの個人サイトなどのファッションサイトにインスパイアされています。大胆さとシンプルさが好きです。初期のコンセプトはFigmaで作成しました。",
+    "cybersicknessResearch": "サイバーメイル研究プロジェクト",
+    "cybersicknessResearchDescOne": "UQACでのインターンシップ中に、モバイルフォンの振動を使用して仮想現実でのサイバーメイルを軽減する研究プロジェクトに取り組みました。",
+    "cybersicknessResearchDescTwo": "実験は、VRでUnityで作成された迷路を歩きながら、一定、ランダム、速度に基づく振動、および振動なしの異なるタイプの振動を受けるものでした。",
+    "travelManagerProject": "トラベルマネージャーアプリ",
+    "travelManagerDescOne": "Android開発コースのUQACプロジェクト。このアプリは、旅行を作成および管理するための地図を提供します。",
+    "travelManagerDescTwo": "アプリはOpenStreetMapsを使用して地図を表示し、2点間の距離を見つけます。また、旅行を保存するためにSQLiteデータベースを使用します。",
+    "frenchElectionsProject": "フランス選挙プロジェクト",
+    "frenchElectionsDescOne": "データ分析コースのUQACグループプロジェクト。2022年のフランス大統領選挙をテーマにして、クラスで学んだ概念を適用しました。",
+    "frenchElectionsDescTwo": "Rを使用してデータを分析し、地図やグラフを使って視覚化を行いました。",
+    "blissmapProject": "Blissmap",
+    "blissmapDescOne": "コード品質コースのUQACプロジェクト。このプロジェクトは、JavaとSpring Bootを使用してウェブアプリケーションを作成するものでした。",
+    "blissmapDescTwo": "アプリはユーザーがリラックスできる場所や店舗を見つけることができるもので、OpenStreetMapsを使用して地図とユーザーの周囲の場所を表示します。",
+    "cresticInternship": "CReSTICのAR/VRウェブアプリ",
+    "cresticDescOne": "CReSTICでの3ヶ月のインターンシップ中に、THREE.jsとA-Frameを使用してAR/VRウェブアプリを作成しました。Unityの代わりにウェブ技術を使用して、インストール不要で電話やVRヘッドセットでアクセスできるようにしました。",
+    "cresticDescTwo": "このプロジェクトでは、幅広い技術を自分で使用し、問題に最適な解決策を常に見つけるよう努めました。",
+    "cresticDescThree": "このアプリは、大学の学生が大学のさまざまな機械やFactory I/Oの仮想機械を視覚化するのを助けるために作成されました（Real Gamesとの共同プロジェクト）。",
+    "vignupProject": "Vign'Up",
+    "vignupDescOne": "URCAのグループプロジェクトで、マルヌ農業会議所との共同作業。目的は、マルヌのブドウ栽培者に広いブドウ畑に関するすべての情報を提供することでした。",
+    "vignupDescTwo": "このウェブアプリは、農業会議所の仕様に従ってSymfonyとPHPを使用して作成されました。チームの2人のメンバーが農業会議所にインターンシップとして採用され、プロジェクトを続け、現在www.vignup.frで利用可能です。"
 }
   
