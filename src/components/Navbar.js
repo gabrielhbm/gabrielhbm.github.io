@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { NavLink, useParams, useNavigate } from 'react-router-dom';
+import { NavLink, useParams, useNavigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { FaHome, FaInfoCircle, FaProjectDiagram, FaPlane, FaEnvelope, FaBars } from 'react-icons/fa';
 import '../styles/navbar.css';
@@ -7,6 +7,7 @@ import '../styles/navbar.css';
 const Navbar = () => {
   const { lang } = useParams();
   const navigate = useNavigate();
+  const location = useLocation();
   const { t, i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
@@ -21,7 +22,8 @@ const Navbar = () => {
   const handleLanguageChange = (e) => {
     const newLang = e.target.value;
     i18n.changeLanguage(newLang);
-    navigate(`/${newLang}/home`);
+    const currentPath = location.pathname.split('/').slice(2).join('/');
+    navigate(`/${newLang}/${currentPath}`);
   };
 
   const toggleNavbar = () => {
