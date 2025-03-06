@@ -3,7 +3,7 @@ import React from 'react';
 const Country = ({ flag, name, link, cities }) => {
     return (
         <div className="country">
-            <a href={link} className="country-link">
+            <a href={link} className="country-link" target='_blank' rel='noreferrer'>
                 <img src={flag} alt={`${name} flag`} className="country-flag" />
             </a>
             <p className="country-name">{name}</p>

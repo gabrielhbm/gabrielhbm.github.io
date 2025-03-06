@@ -18,7 +18,7 @@
     "contactMe": "Me contacter",
     "dim-uqac": "Département d'informatique - UQAC",
     "saguenay": "Saguenay, Québec, Canada",
-    "uqacInternshipDesc": "Stage de 3 mois au département d'informatique de l'UQAC. Travail de recherche sur les moyens de réduire le cybermal des transports en réalité virtuelle.",
+    "uqacInternshipDesc": "Stage de 3 mois au département d'informatique de l'UQAC. Travail de recherche sur les moyens de réduire le cybermalaise en réalité virtuelle.",
     "uqac": "UQAC - Université du Québec à Chicoutimi",
     "uqacDegree": "BSc. en informatique",
     "crestic": "CRESTIC - URCA",
@@ -39,7 +39,7 @@
     "involvedSkills": "Compétences impliquées :",
     "thisWebsite": "Ce site web",
     "projectWebsiteDescOne": "Je voulais créer un site portfolio pour montrer plus que mon CV. Je l'ai rendu multilingue en fonction des langues que je parle en utilisant i18n.js.",
-    "projectWebsiteDescTwo": "Le design est inspiré par des sites de mode tels que Balenciaga, Celine ou le site personnel d'Henri Alexander Levy que j'aime pour leur audace et leur simplicité. Concept initial réalisé avec Figma.",
+    "projectWebsiteDescTwo": "Le design est inspiré par des sites de mode tels que Balenciaga, Celine ou le site personnel d'Henri Alexander Levy que j'aime pour leur franchise et leur simplicité. Concept initial réalisé avec Figma.",
     "cybersicknessResearch": "Projet de recherche sur le cybermalaise",
     "cybersicknessResearchDescOne": "Pendant mon stage à l'UQAC, j'ai travaillé sur un projet de recherche pour réduire le cybermalaise en réalité virtuelle en utilisant les vibrations d'un téléphone mobile.",
     "cybersicknessResearchDescTwo": "L'expérience consistait à marcher dans un labyrinthe réalisé en Unity en VR tout en recevant différents types de vibrations : constantes, aléatoires, basées sur la vitesse et sans vibration.",
@@ -74,5 +74,6 @@
     "Croatia": "Croatie",
     "Bosnia": "Bosnie",
     "Switzerland": "Suisse",
-    "Belgium": "Belgique"
+    "Belgium": "Belgique",
+    "contactDesc": "Voici plusieurs moyens de me contacter : "
 }

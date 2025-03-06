@@ -39,7 +39,7 @@
     "involvedSkills": "関与したスキル：",
     "thisWebsite": "このウェブサイト",
     "projectWebsiteDescOne": "ポートフォリオサイトを作成して、履歴書以上のものを見せたかったのです。i18n.jsを使用して、話す言語に応じて多言語対応にしました。",
-    "projectWebsiteDescTwo": "デザインは、Balenciaga、Celine、Henri Alexander Levyの個人サイトなどのファッションサイトにインスパイアされています。大胆さとシンプルさが好きです。初期のコンセプトはFigmaで作成しました。",
+    "projectWebsiteDescTwo": "このデザインは、バレンシアガ、セリーヌ、アンリ・アレクサンダー・レヴィの個人サイトなどのファッション・サイトにインスパイアされています。初期コンセプトはFigmaで作成。",
     "cybersicknessResearch": "サイバーメイル研究プロジェクト",
     "cybersicknessResearchDescOne": "UQACでのインターンシップ中に、モバイルフォンの振動を使用して仮想現実でのサイバーメイルを軽減する研究プロジェクトに取り組みました。",
     "cybersicknessResearchDescTwo": "実験は、VRでUnityで作成された迷路を歩きながら、一定、ランダム、速度に基づく振動、および振動なしの異なるタイプの振動を受けるものでした。",
@@ -109,7 +109,9 @@
     "Geneva": "ジュネーブ",
     "Basel": "バーゼル",
     "Antwerp": "アントワープ",
-    "Bouillon": "ブイヨン"
+    "Bouillon": "ブイヨン",
+
+    "contactDesc": "こちらが私に連絡する方法です："
 
 }
   
