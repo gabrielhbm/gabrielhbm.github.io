@@ -53,6 +53,7 @@ const Navbar = () => {
               <option value="en">EN</option>
               <option value="jp">JP</option>
               <option value="fr">FR</option>
+              <option value="es">ES</option>
             </select>
           </div>
           <button className="hamburger" onClick={toggleNavbar}>
