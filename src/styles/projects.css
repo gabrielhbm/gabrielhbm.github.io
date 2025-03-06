@@ -85,6 +85,9 @@
 .project-description-p {
   margin-top: 5px;
 }
+i:hover {
+  transform: scale(1.2); /* Slightly enlarge on hover */
+}
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {

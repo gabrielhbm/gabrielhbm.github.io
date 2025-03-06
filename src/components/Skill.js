@@ -5,7 +5,7 @@ const Skill = ({ icon, name, link }) => {
     return (
         <div className="skill">
             <a href={link} target="_blank" rel="noopener noreferrer">
-                <i className={`devicon-${icon}`} alt={`${name} icon`}></i>
+                <i className={`devicon-${icon}${(icon === 'blender' || icon === 'threejs') ? '-original' : '-plain'}`} alt={`${name} icon`}></i>
                 <p className="skill-name">{name}</p>
             </a>
         </div>

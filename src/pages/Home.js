@@ -37,6 +37,7 @@ const Home = () => {
       { icon: 'bootstrap', name: 'Bootstrap', link: 'https://getbootstrap.com/' },
       { icon: 'symfony', name: 'Symfony', link: 'https://symfony.com/' },
       { icon: 'vuejs', name: 'Vue.js', link: 'https://vuejs.org/' },
+      { icon: 'threejs', name: 'Three.js', link: 'https://threejs.org/' },
       
     ],
     tools: [
@@ -44,6 +45,7 @@ const Home = () => {
       { icon: 'github', name: 'GitHub', link: 'https://github.com/' },
       { icon: 'gitlab', name: 'GitLab', link: 'https://gitlab.com/' },
       { icon: 'docker', name: 'Docker', link: 'https://www.docker.com/' },
+      { icon: 'amazonwebservices', name: 'AWS', link: 'https://aws.amazon.com/' },
       { icon: 'nodejs', name: 'Node.js', link: 'https://nodejs.org/' },
       { icon: 'vscode', name: 'VS Code', link: 'https://code.visualstudio.com/' },
       { icon: 'visualstudio', name: 'Visual Studio', link: 'https://visualstudio.microsoft.com/' },
@@ -51,9 +53,13 @@ const Home = () => {
       { icon: 'intellij', name: 'IntelliJ IDEA', link: 'https://www.jetbrains.com/idea/' },
       { icon: 'rstudio', name: 'RStudio', link: 'https://www.rstudio.com/' },
       { icon: 'unity', name: 'Unity', link: 'https://unity.com/' },
+      { icon: 'godot', name: 'Godot', link: 'https://godotengine.org/' },
+      
+      { icon: 'blender', name: 'Blender', link: 'https://www.blender.org/' },
       { icon: 'figma', name: 'Figma', link: 'https://www.figma.com/' },
       { icon: 'trello', name: 'Trello', link: 'https://trello.com/' },
-      { icon: 'jira', name: 'Jira', link: 'https://www.atlassian.com/software/jira' }
+      { icon: 'jira', name: 'Jira', link: 'https://www.atlassian.com/software/jira' },
+      { icon: 'photoshop', name: 'Photoshop', link: 'https://www.adobe.com/products/photoshop.html' },
     ]
   };
   return (
@@ -152,7 +158,7 @@ const Home = () => {
           <p className="skills-title">{t('languages').toLocaleUpperCase()}</p>
           <div className="skills-section-list">
             {skills.languages.map((language, index) => (
-              <Skill key={index} icon={language.icon+"-plain"} name={language.name.toLocaleUpperCase()} link={language.link} />
+              <Skill key={index} icon={language.icon} name={language.name.toLocaleUpperCase()} link={language.link} />
             ))}
           </div>
         </div>
@@ -160,7 +166,7 @@ const Home = () => {
           <p className="skills-title">{t('databases').toLocaleUpperCase()}</p>
           <div className="skills-section-list">
             {skills.databases.map((database, index) => (
-              <Skill key={index} icon={database.icon+"-plain"} name={database.name.toLocaleUpperCase()} link={database.link} />
+              <Skill key={index} icon={database.icon} name={database.name.toLocaleUpperCase()} link={database.link} />
             ))}
           </div>
         </div>
@@ -168,18 +174,16 @@ const Home = () => {
           <p className="skills-title">{t('frameworks').toLocaleUpperCase()}</p>
           <div className="skills-section-list">
             {skills.frameworks.map((framework, index) => (
-              <Skill key={index} icon={framework.icon+"-plain"} name={framework.name.toLocaleUpperCase()} link={framework.link} />
+              <Skill key={index} icon={framework.icon} name={framework.name.toLocaleUpperCase()} link={framework.link} />
             ))}
-            <Skill icon="threejs-original" name="THREE.JS" link="https://threejs.org/" />
           </div>
         </div>
         <div className="skills-section">
           <p className="skills-title">{t('tools').toLocaleUpperCase()}</p>
           <div className="skills-section-list">
             {skills.tools.map((tool, index) => (
-              <Skill key={index} icon={tool.icon+"-plain"} name={tool.name.toLocaleUpperCase()} link={tool.link} />
+              <Skill key={index} icon={tool.icon} name={tool.name.toLocaleUpperCase()} link={tool.link} />
             ))}
-            <Skill icon="blender-original" name="BLENDER" link="https://www.blender.org/" />
           </div>
         </div>
       </div>

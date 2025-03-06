@@ -16,7 +16,12 @@ const Project = ({ img, name, date, description, skills }) => {
                 <p className='projectSkills'>{t('involvedSkills').toLocaleUpperCase()}</p>
                 <div className='project-skills'>
                     {skills.map(skill => (
-                        <i key={skill} className={`devicon-${skill}-plain`} alt={`${name} icon`}></i>
+                        <i 
+                            key={skill} 
+                            className={`devicon-${skill}${(skill === 'blender' || skill === 'threejs') ? '-original' : '-plain'}`} 
+                            alt={`${name} icon`}
+                            title={skill}
+                        ></i>
                     ))}
                 </div>
             </div>

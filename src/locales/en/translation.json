@@ -37,16 +37,29 @@
     "tools": "Tools",
 
     "projectsDesc": "Here are some of the projects I've worked on.",
-    "projectsDescTwo": "Some of these projects were done during my studies, others during my internships, and some are personal projects.",
+    "projectsDescTwo": "Some of these projects were done during my studies, others during my internships, and some are personal projects. I might add more later.",
     "involvedSkills": "Involved skills :",
     "thisWebsite": "This website",
     "projectWebsiteDescOne": "I wanted to create a portfolio website to show more than just my resume. I made it multilingual based on the languages I speak using i18n.js.",
     "projectWebsiteDescTwo": "The design is inspired by fashion websites such as Balenciaga, Celine or Henri Alexander Levy's personal website that I like for their boldness and simplicity. Initial sketch made using figma.",
-    "cybersicknessResearch": "Cybersickness research",
+    "cybersicknessResearch": "Cybersickness research project",
     "cybersicknessResearchDescOne": "During my internship at the UQAC, I worked on a research project to reduce cybersickness in virtual reality using vibrations from a mobile phone.",
     "cybersicknessResearchDescTwo": "The experiment involved walking through a maze made in Unity in VR while receiving different types of vibrations: constant, random, vibration based on speed and no vibration.",
     "travelManagerProject": "Travel Manager App",
     "travelManagerDescOne": "UQAC project for an Android development course. This app consists in a map that allows to create and manage trips.",
-    "travelManagerDescTwo": "The app uses OpenStreetMaps to display the map and find distances between two points. It also uses an SQLite database to store the trips."
+    "travelManagerDescTwo": "The app uses OpenStreetMaps to display the map and find distances between two points. It also uses an SQLite database to store the trips.",
+    "frenchElectionsProject": "French Elections R Project",
+    "frenchElectionsDescOne": "UQAC group project for a data analysis course. We chose the topic of the 2022 French presidential elections to apply the concepts learned in class.",
+    "frenchElectionsDescTwo": "We used R to analyze the data and create visualizations with maps and graphs.",
+    "blissmapProject": "Blissmap",
+    "blissmapDescOne": "UQAC project for a code quality course. This project involved creating a web app using Java and Spring Boot.",
+    "blissmapDescTwo": "The app allows user to find relaxing places and shops in their area. It uses OpenStreetMaps to display the map and the different places in the specified radius around the user.",
+    "cresticInternship": "CReSTIC AR/VR web app",
+    "cresticDescOne": "During this 3 month internship at the CReSTIC, I got to work on creating an AR/VR web app using THREE.js and A-Frame. We chose to use web technologies instead of Unity to make the app accessible to phones and VR headsets without any installation needed.",
+    "cresticDescTwo": "This project allowed me to use a wide range of technologies on my own and to always try to find the most suitable solution for the problem at hand.",
+    "cresticDescThree": "This app was made to help students of the university visualize the different machines from the University, as well as the virtual ones from Factory I/O (project made in collaboration with Real Games in Portugal).",
+    "vignupProject": "Vign'Up",
+    "vignupDescOne": "URCA group project made in collaboration with the Marne Chamber of Agriculture. The goal was to provide all the information regarding semi-large vines to the Marne winegrowers.",
+    "vignupDescTwo": "This web app was made using Symfony and PHP, based on the specifications given by the Chamber of Agriculture. Two members of my team were taken in internship by the Chamber of Agriculture to continue the project, which is now available at www.vignup.fr."
   }
   
