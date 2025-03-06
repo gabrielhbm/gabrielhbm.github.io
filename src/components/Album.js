@@ -3,11 +3,13 @@ import PropTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
 
 
-const Album = ({ image, title, artist, genre, releaseYear, rating, description }) => {
+const Album = ({ image, title, artist, genre, releaseYear, rating, description, link }) => {
     const { t } = useTranslation();
     return (
         <div className="album">
-            <img src={image} alt={`${title} cover`} className='album-cover'/>
+            <a href={link} target="_blank" rel="noreferrer">
+                <img src={image} alt={`${title} cover`} className='album-cover'/>
+            </a>
             <div className='album-top'>
                 <h2>{title}</h2>
                 <p className='album-artist'>{artist}</p>
@@ -28,6 +30,7 @@ Album.propTypes = {
     releaseYear: PropTypes.number.isRequired,
     rating: PropTypes.number.isRequired,
     description: PropTypes.string,
+    link: PropTypes.string
 };
 
 export default Album;

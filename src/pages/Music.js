@@ -13,6 +13,7 @@ const Music = () => {
       releaseYear: 1996,
       rating: 10,
       description: t('octoberRustDesc'),
+      link: "https://open.spotify.com/intl-fr/album/46NjYrJ5v5ZTIHMb1DrAgl?si=bnrQWF9pRh-F_9HmNbA7TA",
     },
     {
       image: '/albums/imaginaldisk.png',
@@ -22,15 +23,17 @@ const Music = () => {
       releaseYear: 2024,
       rating: 10,
       description: t('imaginalDiscDesc'),
+      link: "https://open.spotify.com/intl-fr/album/4HTy9WFTYooRjE9giTmzAF?si=1pvDjAWeQi-_dfhTjTny6Q"
     },
     {
       image: '/albums/wormwood.png',
       title: 'Wormwood',
       artist: 'The Acacia Strain',
       genre: 'Metalcore',
-      releaseYear: 2018,
+      releaseYear: 2010,
       rating: 10,
       description: t('wormwoodDesc'),
+      link: "https://open.spotify.com/intl-fr/album/5pZD06jMRqNicKO4AlcK06?si=4f2eff2b0c964487"
     },
     {
       image: '/albums/pop2.png',
@@ -40,6 +43,7 @@ const Music = () => {
       releaseYear: 2017,
       rating: 10,
       description: t('popTwoDesc'), 
+      link: "https://open.spotify.com/intl-fr/album/2HIwUmdxEl7SeWa1ndH5wC?si=e1d198ad900544da"
     },
     {
       image: '/albums/dielit.png',
@@ -49,6 +53,7 @@ const Music = () => {
       releaseYear: 2018,
       rating: 9.5,
       description: t('dieLitDesc'),
+      link: "https://open.spotify.com/intl-fr/album/7dAm8ShwJLFm9SaJ6Yc58O?si=-HDgzrrITE-e4vUL3xl0tA"
     },
     {
       image: '/albums/afterlyfe.png',
@@ -58,6 +63,7 @@ const Music = () => {
       releaseYear: 2020,
       rating: 9,
       description: t('afterlyfeDesc'),
+      link: "https://open.spotify.com/intl-fr/album/25Uddgldy3slnChqKqHsIM?si=74b9e583c46e4f82"
     },
     {
       image: '/albums/brat.png',
@@ -67,6 +73,7 @@ const Music = () => {
       releaseYear: 2024,
       rating: 9.5,
       description: t('bratDesc'),
+      link: "https://open.spotify.com/intl-fr/album/2lIZef4lzdvZkiiCzvPKj7?si=_ZzzU66BTYSQDtrWumkZhA"
     },
     {
       image: '/albums/untouchables.png',
@@ -76,6 +83,7 @@ const Music = () => {
       releaseYear: 2002,
       rating: 9,
       description: t('untouchablesDesc'),
+      link: "https://open.spotify.com/intl-fr/album/32H8ZczfX12FWWODVVr6NQ?si=819c612414054769"
     },
     {
       image: '/albums/twostarandthedreampolice.png',
@@ -85,6 +93,7 @@ const Music = () => {
       releaseYear: 2024,
       rating: 9,
       description: t('twoStarDesc'),
+      link: "https://open.spotify.com/playlist/2R7NwyUfUJfsRDabEVauRq?si=c5bfeaf0556d4037"
     },
     {
       image: '/albums/sooth.png',
@@ -94,6 +103,7 @@ const Music = () => {
       releaseYear: 2020,
       rating: 10,
       description: t('soothDesc'),
+      link: "https://open.spotify.com/intl-fr/album/7sC7y81LiXPqPjQmfBEE3p?si=0b2224714a544561"
     },
     {
       image: '/albums/timeandspace.png',
@@ -103,6 +113,7 @@ const Music = () => {
       releaseYear: 2018,
       rating: 9,
       description: t('timeAndSpaceDesc'),
+      link: "https://open.spotify.com/intl-fr/album/7bZveW9UQfYbkPH9pkpaQx?si=HVjDbb6YRAegNTw4MYKHZA"
     },
     {
       image: '/albums/slimeball3.png',
@@ -112,15 +123,17 @@ const Music = () => {
       releaseYear: 2018,
       rating: 8,
       description: t('slimeballThreeDesc'),
+      link: "https://open.spotify.com/intl-fr/album/6NNqD3Z4ETW7AgEKjV6iII?si=b0c8159ca8ad4dbc"
     },
     {
       image: '/albums/unsilentdeath.png',
       title: 'Unsilent Death',
       artist: 'Nails',
-      genre: 'Hardcore Punk',
+      genre: 'Powerviolence',
       releaseYear: 2010,
       rating: 10,
       description: ('unsilentDeathDesc'),
+      link: "https://open.spotify.com/intl-fr/track/25FpSc8mWexwXo3X42rduw?si=190e8e36924b4b73"
     },
     {
       image: '/albums/softscars.png',
@@ -130,6 +143,7 @@ const Music = () => {
       releaseYear: 2023,
       rating: 9,
       description: t('softScarsDesc'),
+      link: "https://open.spotify.com/intl-fr/album/7t01lwQRDjtEvwiAm88ACH?si=06406396363c460d"
     },
     {
       image: '/albums/ds2.png',
@@ -139,6 +153,7 @@ const Music = () => {
       releaseYear: 2015,
       rating: 9,
       description: ('dsTwoDesc'),
+      link: "https://open.spotify.com/intl-fr/album/0fUy6IdLHDpGNwavIlhEsl?si=dc4db6fb1ff04a21"
     },
     {
       image: '/albums/idisagree.png',
@@ -148,6 +163,7 @@ const Music = () => {
       releaseYear: 2020,
       rating: 10,
       description: t('iDisagreeDesc'),
+      link: "https://open.spotify.com/intl-fr/album/4uTce2w80loIu3oLnW0irN?si=3318361ce8c24404"
     },
     {
       image: '/albums/amo.png',
@@ -157,6 +173,7 @@ const Music = () => {
       releaseYear: 2019,
       rating: 8,
       description: t('amoDesc'),
+      link: "https://open.spotify.com/intl-fr/album/04mkS7FooK8fRbB626T9NR?si=c68b2487bcfc49d5"
     },
     {
       image: '/albums/homogenic.png',
@@ -166,6 +183,7 @@ const Music = () => {
       releaseYear: 1997,
       rating: 10,
       description: t('homogenicDesc'),
+      link: "https://open.spotify.com/intl-fr/album/0h19Ty9F2Ma8pKkRdx17UT?si=fa616a943b114f93"
     },
     {
       image: '/albums/nonesovile.png',
@@ -175,6 +193,7 @@ const Music = () => {
       releaseYear: 1996,
       rating: 9,
       description: t('nsvDesc'),
+      link: "https://open.spotify.com/intl-fr/album/0mZUAsioioz1zKB2ll6jFt?si=d48cdb68e2b24514"
     },
     {
       image: '/albums/almightyso2.png',
@@ -184,6 +203,7 @@ const Music = () => {
       releaseYear: 2024,
       rating: 8.5,
       description: t('almightySoTwoDesc'),
+      link: "https://open.spotify.com/intl-fr/album/6xw2hoSzBYynn2dGmERunp?si=d584dced45954781"
     },
     {
       image: '/albums/lookatyourself.png',
@@ -193,7 +213,19 @@ const Music = () => {
       releaseYear: 2017,
       rating: 9,
       description: t('layDesc'),
-    }
+      link: "https://open.spotify.com/intl-fr/album/5d904eRcMkUSIipPixswNM?si=9ffc5808fb0f42a7"
+    },
+    {
+      image: '/albums/mercurialworld.png',
+      title: 'Mercurial World',
+      artist: 'Magdalena Bay',
+      genre: 'Synthpop',
+      releaseYear: 2021,
+      rating: 10,
+      description: t('mercurialWorldDesc'),
+      link: "https://open.spotify.com/intl-fr/album/1ERrUvG31thFCxdwWUoJrY?si=6UTDg4ClSv23p_4-BvOUvw"
+    },
+
   ];
   useDocumentTitle(t('music'));
 
@@ -212,6 +244,7 @@ const Music = () => {
             releaseYear={album.releaseYear}
             rating={album.rating}
             description={t(album.description)}
+            link={album.link}
           />
         ))}
       </div>
