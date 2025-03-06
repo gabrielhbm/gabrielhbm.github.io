@@ -1,0 +1,61 @@
+.pageDescriptionMusic {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .album-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Three albums per row */
+    gap: 20px; /* Space between albums */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .album {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start (left) */
+    text-align: left; /* Align text to the left */
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+  }
+  
+  .album:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+  }
+  
+  .album-cover {
+    width: 100%; /* Take full width of the container */
+    height: auto;
+  }
+  
+  .album h2,
+  .album p {
+    text-transform: uppercase;
+  }
+  
+  .album h2 {
+    font-size: 26px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .album-artist {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: rgb(24, 24, 24);
+    
+  }
+  
+  .album-genre,
+  .album-year,
+  .album-rating,
+  .album-desc {
+    margin: 5px 0;
+    font-size: 14px;
+  }

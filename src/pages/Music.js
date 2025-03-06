@@ -1,60 +1,206 @@
 import { useTranslation } from 'react-i18next';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 import Album from '../components/Album';
-const albums = [
-  {
-    image: 'path/to/image1.jpg',
-    title: 'Album 1',
-    artist: 'Artist 1',
-    genre: 'Genre 1',
-    releaseYear: 2021,
-    rating: 4.5,
-    description: 'Description for album 1',
-  },
-  {
-    image: 'path/to/image2.jpg',
-    title: 'Album 2',
-    artist: 'Artist 2',
-    genre: 'Genre 2',
-    releaseYear: 2020,
-    rating: 4.0,
-    description: 'Description for album 2',
-  },
-  {
-    image: 'path/to/image3.jpg',
-    title: 'Album 3',
-    artist: 'Artist 3',
-    genre: 'Genre 3',
-    releaseYear: 2019,
-    rating: 4.8,
-    description: 'Description for album 3',
-  },
-  {
-    image: 'path/to/image4.jpg',
-    title: 'Album 4',
-    artist: 'Artist 4',
-    genre: 'Genre 4',
-    releaseYear: 2018,
-    rating: 4.2,
-    description: 'Description for album 4',
-  },
-  {
-    image: 'path/to/image5.jpg',
-    title: 'Album 5',
-    artist: 'Artist 5',
-    genre: 'Genre 5',
-    releaseYear: 2017,
-    rating: 4.7,
-    description: 'Description for album 5', 
-  },
-];
+import '../styles/music.css'
 const Music = () => {
   const { t } = useTranslation();
+  const albums = [
+    {
+      image: '/albums/octoberrust.png',
+      title: 'October Rust',
+      artist: 'Type O Negative',
+      genre: 'Gothic Metal',
+      releaseYear: 1996,
+      rating: 10,
+      description: t('octoberRustDesc'),
+    },
+    {
+      image: '/albums/imaginaldisk.png',
+      title: 'Imaginal Disk',
+      artist: 'Magdalena Bay',
+      genre: 'Synthpop',
+      releaseYear: 2024,
+      rating: 10,
+      description: t('imaginalDiscDesc'),
+    },
+    {
+      image: '/albums/wormwood.png',
+      title: 'Wormwood',
+      artist: 'The Acacia Strain',
+      genre: 'Metalcore',
+      releaseYear: 2018,
+      rating: 10,
+      description: t('wormwoodDesc'),
+    },
+    {
+      image: '/albums/pop2.png',
+      title: 'POP 2',
+      artist: 'Charli XCX',
+      genre: 'Hyperpop',
+      releaseYear: 2017,
+      rating: 10,
+      description: t('popTwoDesc'), 
+    },
+    {
+      image: '/albums/dielit.png',
+      title: 'Die Lit',
+      artist: 'Playboi Carti',
+      genre: 'Trap',
+      releaseYear: 2018,
+      rating: 9.5,
+      description: t('dieLitDesc'),
+    },
+    {
+      image: '/albums/afterlyfe.png',
+      title: 'Aftërlyfe',
+      artist: 'Yeat',
+      genre: 'Trap',
+      releaseYear: 2020,
+      rating: 9,
+      description: t('afterlyfeDesc'),
+    },
+    {
+      image: '/albums/brat.png',
+      title: 'brat',
+      artist: 'Charli XCX',
+      genre: 'Electropop',
+      releaseYear: 2024,
+      rating: 9.5,
+      description: t('bratDesc'),
+    },
+    {
+      image: '/albums/untouchables.png',
+      title: 'Untouchables',
+      artist: 'KoЯn',
+      genre: 'Nu metal',
+      releaseYear: 2002,
+      rating: 9,
+      description: t('untouchablesDesc'),
+    },
+    {
+      image: '/albums/twostarandthedreampolice.png',
+      title: 'Two Star & The Dream Police',
+      artist: 'Mk.Gee',
+      genre: 'Bedroom Pop',
+      releaseYear: 2024,
+      rating: 9,
+      description: t('twoStarDesc'),
+    },
+    {
+      image: '/albums/sooth.png',
+      title: 'Sooth',
+      artist: 'Disfiguring the Goddess',
+      genre: 'Deathcore',
+      releaseYear: 2020,
+      rating: 10,
+      description: t('soothDesc'),
+    },
+    {
+      image: '/albums/timeandspace.png',
+      title: 'Time & Space',
+      artist: 'Turnstile',
+      genre: 'Hardcore Punk',
+      releaseYear: 2018,
+      rating: 9,
+      description: t('timeAndSpaceDesc'),
+    },
+    {
+      image: '/albums/slimeball3.png',
+      title: 'Slimeball 3',
+      artist: 'Young Nudy',
+      genre: 'Trap',
+      releaseYear: 2018,
+      rating: 8,
+      description: t('slimeballThreeDesc'),
+    },
+    {
+      image: '/albums/unsilentdeath.png',
+      title: 'Unsilent Death',
+      artist: 'Nails',
+      genre: 'Hardcore Punk',
+      releaseYear: 2010,
+      rating: 10,
+      description: ('unsilentDeathDesc'),
+    },
+    {
+      image: '/albums/softscars.png',
+      title: 'Softscars',
+      artist: 'Yeule',
+      genre: 'Alternative rock',
+      releaseYear: 2023,
+      rating: 9,
+      description: t('softScarsDesc'),
+    },
+    {
+      image: '/albums/ds2.png',
+      title: 'DS2',
+      artist: 'Future',
+      genre: 'Hip Hop',
+      releaseYear: 2015,
+      rating: 9,
+      description: ('dsTwoDesc'),
+    },
+    {
+      image: '/albums/idisagree.png',
+      title: 'I Disagree',
+      artist: 'Poppy',
+      genre: 'Metal',
+      releaseYear: 2020,
+      rating: 10,
+      description: t('iDisagreeDesc'),
+    },
+    {
+      image: '/albums/amo.png',
+      title: 'amo',
+      artist: 'Bring Me The Horizon',
+      genre: 'Rock',
+      releaseYear: 2019,
+      rating: 8,
+      description: t('amoDesc'),
+    },
+    {
+      image: '/albums/homogenic.png',
+      title: 'Homogenic',
+      artist: 'Björk',
+      genre: 'Electronic',
+      releaseYear: 1997,
+      rating: 10,
+      description: t('homogenicDesc'),
+    },
+    {
+      image: '/albums/nonesovile.png',
+      title: 'None So Vile',
+      artist: 'Cryptopsy',
+      genre: 'Death Metal',
+      releaseYear: 1996,
+      rating: 9,
+      description: t('nsvDesc'),
+    },
+    {
+      image: '/albums/almightyso2.png',
+      title: 'Almighty So 2',
+      artist: 'Chief Keef',
+      genre: 'Drill',
+      releaseYear: 2024,
+      rating: 8.5,
+      description: t('almightySoTwoDesc'),
+    },
+    {
+      image: '/albums/lookatyourself.png',
+      title: 'Look at Yourself',
+      artist: 'Emmure',
+      genre: 'Metalcore',
+      releaseYear: 2017,
+      rating: 9,
+      description: t('layDesc'),
+    }
+  ];
   useDocumentTitle(t('music'));
 
   return (
     <div>
       <h1>{t('music')}</h1>
+      <p className='pageDescriptionMusic'>{t('musicDesc')}</p>
       <div className='album-container'>
         {albums.map((album, index) => (
           <Album
@@ -65,7 +211,7 @@ const Music = () => {
             genre={album.genre}
             releaseYear={album.releaseYear}
             rating={album.rating}
-            description={album.description}
+            description={t(album.description)}
           />
         ))}
       </div>
