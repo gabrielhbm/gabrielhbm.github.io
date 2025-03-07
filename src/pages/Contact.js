@@ -23,7 +23,7 @@ const Contact = () => {
           <FaLinkedin className="contact-icon" />
           <div className="contact-info">
             <p className="contact-name">LinkedIn</p>
-            <p className='contact-link'>linkedin.com/in/gabrielhoudryboheme/</p>
+            <p className='contact-link'>linkedin.com/in/gabrielhoudryboheme</p>
           </div>
         </a>
         <a href="https://github.com/gabrielhbm" target="_blank" rel="noopener noreferrer" className="contact-method">
