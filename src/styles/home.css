@@ -295,11 +295,11 @@ h1 {
     width: 100%;
   }
   .line {
-    height: 200px;
+    height: 210px;
   }
 
   .history-item {
-    height: 170px;
+    height: 190px;
   }
   .skills-section-list {
     width: 100%; /* Make the skills-section-list take full width on mobile */

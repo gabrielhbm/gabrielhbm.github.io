@@ -129,6 +129,7 @@ const Home = () => {
                   <p className='position'>{t('uqac')}</p>
                   <p className='location'>{t('saguenay')}</p>
                   <p className='description degree'>{t('uqacDegree')}</p>
+                  <p className='description'>{t('uqacDegreeDesc')}</p>
                   </div>
               </div>
               <div className='history-item'>
