@@ -40,7 +40,6 @@ function App() {
                 <Route path="*" element={<Navigate to={`/${i18n.language}/home`} />} />
               </Routes>
               <Footer/>
-              <FixedLogo />
             </>
           }
         />
