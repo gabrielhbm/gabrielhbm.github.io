@@ -96,6 +96,15 @@ const Music = () => {
       link: "https://open.spotify.com/playlist/2R7NwyUfUJfsRDabEVauRq?si=c5bfeaf0556d4037"
     },
     {
+      image: '/albums/youwontgobeforeyouresupposedto.png',
+      title: "You Won't Go Before You're Supposed To",
+      artist: 'Knocked Loose',
+      genre: 'Metalcore',
+      releaseYear: 2024,
+      rating: 10,
+      link: "https://open.spotify.com/intl-fr/album/2sLBMdUF5HYNB0voqWs4K3?si=vbPQTTHMRa-Q2KbCFRWeBA"
+    },
+    {
       image: '/albums/sooth.png',
       title: 'Sooth',
       artist: 'Disfiguring the Goddess',
