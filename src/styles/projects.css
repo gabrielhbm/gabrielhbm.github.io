@@ -89,6 +89,19 @@ i:hover {
   transform: scale(1.2); /* Slightly enlarge on hover */
 }
 
+.project-link i:hover {
+  transform: scale(1);
+}
+
+.project-link-a:hover {
+  color: rgb(72, 72, 72);
+}
+.project-link-a {
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 14px;
+}
 /* Media query for mobile devices */
 @media (max-width: 768px) {
   .projects {

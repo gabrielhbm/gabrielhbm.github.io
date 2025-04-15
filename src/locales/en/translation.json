@@ -37,9 +37,13 @@
     "frameworks": "Frameworks",
     "tools": "Tools",
 
+    "linkToProject": "Link to the project",
     "projectsDesc": "Here are some of the projects I've worked on.",
     "projectsDescTwo": "Some of these projects were done during my studies, others during my internships, and some are personal projects. I might add more later.",
     "involvedSkills": "Involved skills :",
+    "xBookmarksProject": "Tweet manager app",
+    "xDescOne": "This project is a web app that allows you to import tweets, add categories, filter them by category and export them as a JSON file.",
+    "xDescTwo": "I made this because as an artist, I often save a lot of artworks that inspire me but have no place to store them. I wanted to create a tool that would allow me to save them and find them easily later.",
     "thisWebsite": "This website",
     "projectWebsiteDescOne": "I wanted to create a portfolio website to show more than just my resume. I made it multilingual based on the languages I speak using i18n.js.",
     "projectWebsiteDescTwo": "The design is inspired by fashion websites such as Balenciaga, Celine or Henri Alexander Levy's personal website that I like for their bluntness and simplicity. Initial sketch made using figma.",
@@ -100,6 +104,7 @@
     "Metal": "Metal",
     "Rock": "Rock",
     "Electronic": "Electronic",
+    "Rage": "Rage",
     "Death Metal": "Death Metal",
     "Drill": "Drill",
     "octoberRustDesc": "My favorite album from Type O Negative.",
@@ -124,6 +129,7 @@
     "almightySoTwoDesc": "A solid follow-up with hard-hitting tracks.",
     "layDesc": "Aggressive and relentless",
     "mercurialWorldDesc": "Iconic synthpop record.",
-    "email": "Email"
+    "email": "Email",
+    "aGreatChaosDesc": "",
+    "oohRapIYaDesc": ""
   }
-  

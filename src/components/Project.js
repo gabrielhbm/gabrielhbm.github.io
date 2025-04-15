@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
 import '../styles/projects.css';
 
-const Project = ({ img, name, date, description, skills }) => {
+const Project = ({ img, name, date, description, skills, link }) => {
     const { t } = useTranslation();
     return (
         <div className='project-container'>
@@ -30,6 +30,14 @@ const Project = ({ img, name, date, description, skills }) => {
                     <p key={index} className='project-description-p'>{paragraph}</p>
                 ))}
             </div>
+            {link && (
+                <div className='project-link'>
+                    <a href={link} target='_blank' rel='noopener noreferrer' className="project-link-a">
+                        <i className="fas fa-external-link-alt" aria-hidden="true"></i>
+                        {t('linkToProject')}
+                    </a>
+                </div>
+            )}
         </div>
     );
 };
@@ -40,6 +48,7 @@ Project.propTypes = {
     date: PropTypes.string.isRequired,
     description: PropTypes.array.isRequired,
     skills: PropTypes.array.isRequired,
+    link: PropTypes.string, // Optional link
 };
 
 export default Project;

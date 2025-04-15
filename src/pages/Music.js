@@ -76,6 +76,16 @@ const Music = () => {
       link: "https://open.spotify.com/intl-fr/album/2lIZef4lzdvZkiiCzvPKj7?si=_ZzzU66BTYSQDtrWumkZhA"
     },
     {
+      image: '/albums/oohrapiya.png',
+      title: 'Ooh Rap I Ya',
+      artist: 'George Clanton',
+      genre: 'Electronic',
+      releaseYear: 2023,
+      rating: 8.5,
+      description: t('oohRapIYaDesc'),
+      link: "https://open.spotify.com/intl-fr/album/2kvz9frUn3LUK83imD2BQS"
+    },
+    {
       image: '/albums/untouchables.png',
       title: 'Untouchables',
       artist: 'KoЯn',
@@ -93,7 +103,17 @@ const Music = () => {
       releaseYear: 2024,
       rating: 9,
       description: t('twoStarDesc'),
-      link: "https://open.spotify.com/playlist/2R7NwyUfUJfsRDabEVauRq?si=c5bfeaf0556d4037"
+      link: "https://open.spotify.com/intl-fr/album/6DlLdXBGCsSDPOV8R2pCl7?si=-fm44P2tRUKkKNMNy40ZDQ"
+    },
+    {
+      image: '/albums/agreatchaos.png',
+      title: 'A Great Chaos',
+      artist: 'Ken Carson',
+      genre: 'Rage',
+      releaseYear: 2023,
+      rating: 9,
+      description: t('aGreatChaosDesc'),
+      link: "https://open.spotify.com/intl-fr/album/0HS8aknH0JQdMIiBVhyOCW?si=eBG02-VBQi2B_fwb1Qkhog"
     },
     {
       image: '/albums/youwontgobeforeyouresupposedto.png',
